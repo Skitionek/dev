@@ -31,10 +31,10 @@ activate      common        database      git           help          jenkins   
 Including more complex scenarios:
 ```bash
 > dev port-forward <tab> <tab>
-atlas-of-petrochemical-industry     dashboard-visualisation             heapster                            jenkins-ui-nodeport                 main-nginx-ingress-default-backend  regression-model                    upic-model
-atlas-of-petrochemical-industry-2   default-http-backend                help                                kube-dns                            metrics-server                      statistical-analysis                web
-cd-jenkins                          graphql-data-interface              information-system                  kubernetes                          pompey-api                          thrift-model-interface              
-cd-jenkins-agent                    graphql-server                      information-system-db               main-nginx-ingress-controller       prisma                              tiller-deploy  
+a     e
+b      
+c      
+d      
 ```
 
 ## Usage without installation
@@ -55,15 +55,6 @@ This approach, however, lacks autocompletion and is path-dependent.
 - common       - low level functions commonly used for interacting with deployments
    - connect \$HOST \$PORT \$NAMESPACE - calls kubernetes port forward with args from env vars
    - kill \$PORT                       - kill process listening on \$PORT
-- database     - helper scripts to work with database
-   - a.m. in common
-- pompey_api
-   - a.m. in common
-- prisma
-   - a.m. in common
-- jenkins      - helper scripts to work with Jenkins
-   - a.m. in common
-   - password - returns password to Jenkins web-UI
 - help         - this information message
 - kill         - used to kill processes listening on given port (useful to kill detached processes)
 - port-forward - a wrapper around kubectl port-forward focused on forwarding into services (not pods)
