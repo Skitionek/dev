@@ -26,7 +26,7 @@ Scripts have been written assuming extensive usage of autocompletion function. P
 Example:
 ```bash
 > dev <tab> <tab>
-activate      common        database      git           help          jenkins       kill          port-forward  python        self_check    update 
+activate      common      git           help          jenkins       kill          port-forward  python        self_check    update 
 ```
 Including more complex scenarios:
 ```bash
