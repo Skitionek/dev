@@ -71,3 +71,4 @@ This approach, however, lacks autocompletion and is path-dependent.
 
 ## Further development
 Please let me know if any more functionality is needed either by pull-request or opening an issue.
+If I find some free time I will prorly port it to [bashly](https://bashly.dannyb.co/usage/getting-started/).
