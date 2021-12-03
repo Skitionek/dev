@@ -43,7 +43,7 @@ else
 		if [ ${#COMP_WORDS[@]} -gt 2 ]; then
 			source "$__root/src/${COMP_WORDS[1]}.sh" _completions "${COMP_WORDS[@]:2}"
 		else
-      words="atlas atlas1 statistical-analysis activate common database help kill local port-forward python self_check install_dependencies git	update"
+      words="activate common database help kill local port-forward python self_check install_dependencies git	update"
 #			words=$(find "$__root/src" -maxdepth 1 -type f -iname "*.sh" -execdir sh -c 'printf "%s " "${0%.*}"' {} ';')
       suggestions=($(compgen -W "${words}" "${COMP_WORDS[1]}"))
 		fi
